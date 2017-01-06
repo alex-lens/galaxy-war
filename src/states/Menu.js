@@ -8,7 +8,7 @@ export default class extends Phaser.State {
         let title = this.add.text(
             this.world.centerX - 200,
             this.world.centerY - 200,
-            'Galaxy war v 0.1',
+            'Galaxy war v ' + __VERSION__,
             {font: '56px Arial', fill: '#fff', align: 'center'}
         );
     }

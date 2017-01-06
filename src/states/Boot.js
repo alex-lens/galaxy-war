@@ -32,7 +32,7 @@ export default class extends Phaser.State {
         this.load.image('star', './assets/images/star.png');
         this.load.image('enemy', './assets/images/enemy.png');
         this.load.image('starShip', './assets/images/star-ship.png');
-        this.load.image('bullet', './assets/images/starShip/bullet_3.gif');
+        this.load.image('bullet', './assets/images/starShip/bullet.gif');
     }
 
     render() {
